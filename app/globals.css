@@ -12,5 +12,39 @@
 }
 
 .div-body {
-  width: 50%;
+  margin-top: 8px;
+  padding: 1%;
+  background-color: #ffffffee;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+
+.div-body-row {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 8px 0;
+  transition: background-color 0.3s;
+}
+
+.div-body-row:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.div-body-row:hover {
+  background-color: #e6f7ff;
+}
+
+.div-body-col {
+  display: flex;
+  align-items: center;
+}
+
+.div-body-pag {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+strong {
+  font-weight: 600;
 }
